@@ -1,4 +1,6 @@
-FROM linuxserver/netbootxyz:latest
+#FROM linuxserver/netbootxyz:latest
+
+FROM lsiobase/alpine
 
 # Install dnsmasq to play DHCP server
 RUN apk add --update dnsmasq
