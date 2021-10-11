@@ -1,6 +1,6 @@
-#FROM linuxserver/netbootxyz:latest
+FROM linuxserver/netbootxyz:latest
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.13
+#FROM ghcr.io/linuxserver/baseimage-alpine:3.13
 
 # Install dnsmasq to play DHCP server
 RUN apk add --update dnsmasq
